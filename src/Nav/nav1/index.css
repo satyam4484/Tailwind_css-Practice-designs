@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles.css */
+.nav-link {
+    @apply text-[#1E0E62] hover:text-[#493a8a] hover:font-bold transition-all delay-200;
+}
+
+.nav-item {
+    @apply cursor-pointer hover:border-b-[#1E0E62] hover:border-b-2 transition-all delay-100;
+}
+
+.btn-signin {
+    @apply shadow-gray-100 py-1.5 px-3 hover:bg-gray-300 transition-all delay-100 rounded-full;
+}
+
+.btn-signup {
+    @apply bg-[#482BE7] text-white rounded-full py-1.5 px-3 hover:bg-[#2710a6] transition-all delay-100;
+}
